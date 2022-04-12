@@ -26,11 +26,11 @@ header{
     margin-top: 3.6em;
 }
 .logo{
-    width: 20.74em;
+    width: 20.74%;
     float: left;
 }
 nav{
-    width: 840px;
+    width: 74.46%;
     float:right;
 }
 nav ul{
@@ -48,14 +48,14 @@ nav li a{
 .banner{
     background: url(img/banner.jpg);
     height: 450px;
-    margin-bottom: 48px;
+    margin-bottom: 4.8em;
     position: relative;
 }
 .caixa{
     position: absolute;
-    top: 48px;
+    top: 4.8em;
     background: rgba(0,0,0,0.6);
-    width: 42.5%; 
+    width: 42.55%; 
     padding: 2.4em 1.4em 2.4em 4.0em;
 
 }
