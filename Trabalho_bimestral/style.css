@@ -37,7 +37,7 @@ article{
 }
 
 .sobre p{
-    text-align: justify;
+    text-align: center;
 }
 
 h2{
@@ -59,11 +59,21 @@ li{
 }
 .hobbie{
     display: flex;
-    align-items: center;
+    
 }
  .hjpg{
-     width: 100px;
+     width: 200px;
      border-radius: 10%;
      object-fit: cover;
-     height: 100px;
+     height: 200px;
  }
+ #outer {
+    position: relative;
+    width: 100%;
+  }
+  
+  #inner {
+    left: 22%;
+    position: absolute;
+    
+  }
