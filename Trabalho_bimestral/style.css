@@ -64,4 +64,6 @@ li{
  .hjpg{
      width: 100px;
      border-radius: 10%;
+     object-fit: cover;
+     height: 100px;
  }
