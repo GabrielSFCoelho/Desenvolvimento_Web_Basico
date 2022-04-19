@@ -59,6 +59,7 @@ li{
 }
 .hobbie{
     display: flex;
+    text-align: center;
 }
  .hjpg{
      width: 100px;
