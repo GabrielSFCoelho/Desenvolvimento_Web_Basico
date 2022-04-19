@@ -26,14 +26,14 @@ article{
     height: 200px;
     object-fit: cover;
     width: 200px;  
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .sobre{
     border:2px solid gray;
     text-align: center; 
     padding: 10px;
-    height: 565px;   
+    height: 600px;   
 }
 
 .sobre p{
@@ -49,13 +49,14 @@ a{
     color: #484D50;
 }
 
-ul{
+.ulrepositorio{
     border: 2px solid gray;
 }
 
-li{
+.lirepositorio{
     list-style:none; 
     margin-bottom: 10px;
+    padding-right: 10px;
 }
 .hobbie{
     display: flex;
@@ -66,6 +67,7 @@ li{
      border-radius: 10%;
      object-fit: cover;
      height: 200px;
+     padding: 2px;
  }
  #outer {
     position: relative;
@@ -73,7 +75,22 @@ li{
   }
   
   #inner {
-    left: 22%;
+    left: 1%;
     position: absolute;
     
+  }
+  .infocurriculo{
+      display: flex;
+      padding: 10px;
+  }
+  .titulosinfo{
+      display: flex;
+  }
+  .titulosinfo h3{
+      margin-right: 100px;
+      margin-left: 130px;
+  }
+  .gitstatus{
+      margin-left: 6%;
+      text-align: center;
   }
