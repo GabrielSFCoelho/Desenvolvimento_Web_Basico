@@ -75,22 +75,32 @@ a{
   }
   
   #inner {
-    left: 2%;
+    left: 14%;
     position: absolute;
     
   }
   .infocurriculo{
       display: flex;
       padding: 10px;
+      margin-left: 150px;
   }
   .titulosinfo{
       display: flex;
+      margin-left: 290px;
   }
   .titulosinfo h3{
-      margin-right: 100px;
-      margin-left: 130px;
+      margin-right: 29%;
+  }
+  .titulosinfo h3:last-child {
+      margin-right: 0;
   }
   .gitstatus{
-      margin-left: 6%;
+      margin-left: 5%;
       text-align: center;
+  }
+  .redes img{
+    width: 60px;
+  }
+  .redes{
+      margin-left: 100px;
   }
